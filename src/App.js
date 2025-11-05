@@ -17,7 +17,7 @@ function App() {
         <Sidebar />
         <div className="content-area">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/cmr-college-temp" element={<Home />} />
             <Route path="/about" element={<AboutCMR />} />
             <Route path="/courses" element={<CoursesTable/>} />
             <Route path="/student-notices" element={<StudentNotices/>} />
