@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cmr-college-temp/static/css/main.96f73d5d.css",
+    "main.js": "/cmr-college-temp/static/js/main.1e700c45.js",
+    "index.html": "/cmr-college-temp/index.html",
+    "main.96f73d5d.css.map": "/cmr-college-temp/static/css/main.96f73d5d.css.map",
+    "main.1e700c45.js.map": "/cmr-college-temp/static/js/main.1e700c45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96f73d5d.css",
+    "static/js/main.1e700c45.js"
+  ]
+}
