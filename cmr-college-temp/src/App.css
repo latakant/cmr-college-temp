@@ -1,0 +1,19 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  background-color: #f0f0f0;
+}
+
+.content-area {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
+  min-height: calc(100vh - 80px); /* assuming header height ~80px */
+}

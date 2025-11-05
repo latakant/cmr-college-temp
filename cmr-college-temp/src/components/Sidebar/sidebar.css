@@ -1,0 +1,86 @@
+.sidebar {
+  width: 260px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar-section {
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+}
+
+.sidebar-title {
+  background-color: #ffc107;
+  color: #000;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.sidebar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-links li {
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar-links li:last-child {
+  border-bottom: none;
+}
+
+.sidebar-links li a {
+  display: block;
+  color: #003366;
+  text-decoration: none;
+  padding: 8px 10px;
+  font-size: 14px;
+  position: relative;
+}
+
+.sidebar-links li a::before {
+  content: "➜";
+  color: #0077c0;
+  margin-right: 5px;
+}
+
+.sidebar-links li a:hover {
+  background-color: #e6f2ff;
+  color: #000;
+}
+
+.sidebar-links li a.active {
+  background-color: #008e87; /* deep blue background */
+  color: #fff;               /* white text */
+  font-weight: bold;
+}
+
+.sidebar-links li a.active::before {
+  color: #ffc107; /* yellow arrow for active item */
+}
+
+.sidebar-links li a.active {
+  background-color: #008e87; /* CDOE's blue shade */
+  color: #fff;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

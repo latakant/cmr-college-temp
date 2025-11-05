@@ -1,0 +1,54 @@
+.faculty-section {
+  padding: 10px;
+  background-color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+.faculty-title {
+  color: #008e87;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  /* border-bottom: 3px solid #e53935; */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.faculty-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-table th {
+  background-color:  #008e87;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.faculty-table td {
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.faculty-role td {
+  background-color: #ffc107;
+  color: white;
+  font-weight: bold;
+}
+
+.cv-btn {
+  display: inline-block;
+  color: #b71c1c;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.cv-btn:hover {
+  color: #00796b;
+}

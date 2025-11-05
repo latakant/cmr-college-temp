@@ -1,0 +1,58 @@
+.header-container {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.pu-logo {
+  height: 70px;
+}
+
+.pu-text h1 {
+  margin: 0;
+  color: #00b6ad;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.pu-text p {
+  margin: 0;
+  color: #444;
+  font-size: 14px;
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #00b6ad;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.blue-bar {
+  height: 8px;
+  background-color: #0077c0;
+  width: 100%;
+}
