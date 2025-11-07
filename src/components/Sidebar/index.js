@@ -10,6 +10,7 @@ function Sidebar() {
         <ul className="sidebar-links">
           <li><NavLink to="/about">About Us</NavLink></li>
           <li><NavLink to="/courses">Courses</NavLink></li>
+          <li><NavLink to="/anti-ragging">Anti-Ragging</NavLink></li>
           <li><NavLink to="/faculty-staff">Faculty & Staff</NavLink></li>
           <li><NavLink to="/Student-notices">Student Notices</NavLink></li>
           <li><NavLink to="/brochures">CDOE Information Brochures</NavLink></li>
