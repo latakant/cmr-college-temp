@@ -4,43 +4,14 @@ import "./home.css";
 export default function Home() {
   return (
     <div className="right-content">
-      {/* Hero banner */}
-      <section className="hero">
-        <div className="hero-text">
-          <h1>A Growing Campus In India’s Silicon Valley</h1>
-          <p>CMR University takes pride in its three campuses—HRBR Campus, OMBR Campus, and CMRIT near ITPL—each delivering a dynamic learning environment. Among them, the 60-acre Lakeside Campus, strategically located in the heart of North Bengaluru, stands out for its serene setting and exceptional connectivity. Easily accessible from Bellary Road and near the airport, it provides seamless commutation options, ensuring a convenient and enriching educational experience both inside and outside the classroom.</p>
-          <a href="/apply" className="btn-apply">Apply Now</a>
-        </div>
-        <div className="hero-image">
-          <img src="https://www.cmr.edu.in/wp-content/uploads/2025/05/campus_gallery_img-11-1.webp" alt="CMR University Campus" />
-        </div>
-      </section>
+      <h2 className="subheading">About Centre for Distance and Online Education</h2>
+      <p>Centre for Distance and Online Education (CDOE) formerly known as University School of Open Learning (USOL) is celebrating its 50th anniversary this year. It commenced its journey in year 1971 as Directorate of Correspondence Courses to embrace the lofty mission to take the reach of quality education beyond the four walls of University. From being an undergraduate institute in its initial phase, it grew to become a leading and popular Open and Distance Learning Institute. Today it is fully equipped to cater to the ever evolving needs and expectations of 21st Century learners.</p>
+      <p>CDOE offers a wide range of courses: Traditional Undergraduate courses and Post graduate courses, Professional courses, Job-oriented courses, Skill-based courses, Market-driven courses and some Value oriented courses. The method of instruction includes printed study material in Self Learning Mode, Personal Contact Programme, Response Sheets, Assignments, Video and Audio content on selected topics, Dissertations/Projects in selected courses and Counselling of students on a one to one basis, organizing Regional and National Seminars / Webinar and Special Lecture Series etc.</p>
+      <p>CDOE students are taught by highly qualified and experience faculty which is actively engaged in academic research and advancement of knowledge. Through its imposing building located at the beautiful campus of CMR University it extends its excellent facilities and renders effective support services. These include a well-equipped Library, postal library facilities, an Educational Media Centre, Laboratories, a Computer Lab and subsidized hostel facility for outstation students. The CDOE also involves the students in co-curricular activities and brings them together on a common platform despite their diverse locations.</p>
 
-      {/* Programmes section */}
-      <section className="programmes">
-        <h2>Programmes Offered</h2>
-        <div className="programme-cards">
-          <div className="card">
-            <h3>Undergraduate</h3>
-            <p>Students can seek admission to undergraduate programmes via the selection process.</p>
-          </div>
-          <div className="card">
-            <h3>Postgraduate</h3>
-            <p>Students must fulfill specific educational requirements to seek admission to postgraduate programmes.</p>
-          </div>
-          <div className="card">
-            <h3>Doctoral</h3>
-            <p>Students need a recognized Master’s degree to seek admission to the Ph.D. programmes.</p>
-          </div>
-        </div>
-      </section>
+<p>Having effectively integrated ICT in its curriculum, CDOE is fully equipped to disseminate quality education through online mode beside the traditional face to face mode of teaching. Students of CDOE undertake the same syllabi, in the same duration and appear in the same mode of examination like the regular students of Departments and Colleges affiliated to CMR University.</p>
 
-      {/* Admissions highlight */}
-      <section className="admissions-info">
-        <h2>Admissions Open AY 2025-26</h2>
-        <p>CMR University provides a rigorous, academically-enriching experience. Admissions for the academic year 2025-26 are currently open. Gift yourself a fulfilling, global education that propels you towards your dream career. Complete the online application today!</p>
-        <a href="/admissions" className="btn-secondary">Learn More</a>
-      </section>
+
     </div>
   );
 }

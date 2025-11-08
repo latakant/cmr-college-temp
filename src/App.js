@@ -20,7 +20,7 @@ function App() {
         <div className="content-area">
           <h1 className="heading">Centre for Distance and Online Education</h1>
           <Routes>
-            <Route path="/cmr-college-temp" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/courses" element={<TemporaryDashboard pdfUrl={DRIVE_LINK_FOR_ANTI_RAGGING} isDriveLink={true}/>} />
             <Route path="/student-notices" element={<StudentNotices/>} />
             <Route path="/faculty-staff" element={<FacultyTable/>} />
