@@ -16,11 +16,13 @@ const TemporaryDashboard = ({pdfUrl,isDriveLink}) => {
         isDriveLink
         ?
         <iframe
+        title='Drive_View'
         src={`${pdfUrl}preview`}
         style={{ width: "100%", height: "100%", border: "none" }}
         ></iframe>
         :
         <iframe
+        title='PDF_View'
             src={`${pdfUrl}#toolbar=0&navpanes=0`}
             style={{ width: "100%", height: "100%", border: "none" }}
             />
