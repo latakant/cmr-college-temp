@@ -31,9 +31,9 @@ const StudentNotices = () => {
                 <td className="notice-index">{index + 1}.</td>
                 <td className="notice-date">{notice.date}</td>
                 <td className="notice-text">
-                  <a href="#" className="notice-link">
+                  {/* <a href="#" className="notice-link">
                     {notice.title}
-                  </a>
+                  </a> */}
                 </td>
               </tr>
             ))}
