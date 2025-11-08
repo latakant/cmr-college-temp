@@ -30,7 +30,7 @@ function Sidebar() {
           <li><NavLink to="/annual-reports">Annual Reports</NavLink></li>
           <li><NavLink to="/assignments">Assignments & Papers</NavLink></li>
           <li><NavLink to="/ciqa">CIQA Reports</NavLink></li>
-          <li><NavLink to="/grievance">Grievance Redressal</NavLink></li>
+          <li><NavLink to="/Telephone Directory- Contact Details">Telephone Directory- Contact Details</NavLink></li>
           <li><NavLink to="/hei">HEI Application</NavLink></li>
           <li><NavLink to="/mandatory-disclosure">Mandatory Disclosure</NavLink></li>
         </ul>

@@ -4,11 +4,11 @@ import Sidebar from "./components/Sidebar";
 import "./App.css"; 
 import Home from "./components/Home";
 import AboutCMR from "./components/AboutUs";
-import CoursesTable from "./components/Course";
+// import CoursesTable from "./components/Course";
 import StudentNotices from "./components/Students";
-import ContactUs from "./components/Contact/ContactUs";
+// import ContactUs from "./components/Contact/ContactUs";
 import FacultyTable from "./components/Faculty";
-import { DRIVE_LINK_FOR_ANTI_RAGGING, PDF_FOR_ANTI_RAGGING } from "./components/constant";
+import { CONTACT_LINK, DRIVE_LINK_FOR_ANTI_RAGGING, PDF_FOR_ANTI_RAGGING } from "./components/constant";
 import TemporaryDashboard from "./components/Temporary";
 
 function App() {
@@ -21,14 +21,14 @@ function App() {
           <h1 className="heading">Centre for Distance and Online Education</h1>
           <Routes>
             <Route path="/cmr-college-temp" element={<Home />} />
-            <Route path="/about" element={<AboutCMR />} />
             <Route path="/courses" element={<TemporaryDashboard pdfUrl={DRIVE_LINK_FOR_ANTI_RAGGING} isDriveLink={true}/>} />
             <Route path="/student-notices" element={<StudentNotices/>} />
             <Route path="/faculty-staff" element={<FacultyTable/>} />
             <Route path="/anti-ragging" element={<TemporaryDashboard pdfUrl={PDF_FOR_ANTI_RAGGING}/>} />
             <Route path="/students" element={<div>Students Page</div>} />
             <Route path="/results" element={<div>Results Page</div>} />
-            <Route path="/contact" element={<ContactUs/>} />
+            <Route path="/contact" element={<TemporaryDashboard pdfUrl={CONTACT_LINK} isDriveLink={true}  />} />
+            <Route path="/about" element={<AboutCMR />} />
           </Routes>
         </div>
       </div>
