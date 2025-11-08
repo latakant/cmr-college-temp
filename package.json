@@ -1,6 +1,6 @@
 {
   "name": "scm",
-"homepage": "http://latakant.github.io/cmr-college-temp/",
+"homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
