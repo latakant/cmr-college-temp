@@ -8,7 +8,7 @@ import AboutCMR from "./components/AboutUs";
 import StudentNotices from "./components/Students";
 // import ContactUs from "./components/Contact/ContactUs";
 import FacultyTable from "./components/Faculty";
-import { CONTACT_LINK, DRIVE_LINK_FOR_ANTI_RAGGING, PDF_FOR_ANTI_RAGGING } from "./components/constant";
+import { CDOE_PDF, CONTACT_LINK, DRIVE_LINK_FOR_ANTI_RAGGING, PDF_FOR_ANTI_RAGGING } from "./components/constant";
 import TemporaryDashboard from "./components/Temporary";
 
 function App() {
@@ -29,6 +29,7 @@ function App() {
             <Route path="/results" element={<div>Results Page</div>} />
             <Route path="/contact" element={<TemporaryDashboard pdfUrl={CONTACT_LINK} isDriveLink={true}  />} />
             <Route path="/about" element={<AboutCMR />} />
+            <Route path="/brochures" element={<TemporaryDashboard pdfUrl={CDOE_PDF}/>} />
           </Routes>
         </div>
       </div>
