@@ -12,7 +12,7 @@ import {
   PDF_FOR_ANTI_RAGGING,
   CONTACT_LINK,
   CDOE_PDF,
-  //BA_COURSE_LINKS,
+  BA_COURSE_LINKS,
   MBA_BBA_COURSE_LINKS,
 } from "./components/constant";
 import TemporaryDashboard from "./components/Temporary";
@@ -28,10 +28,19 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route
-              path="/courses"
+              path="/courses/MBA&bba"
               element={
                 <TemporaryDashboard
                   pdfUrl={MBA_BBA_COURSE_LINKS}
+                  isDriveLink={true}
+                />
+              }
+            />
+            <Route
+              path="/courses/ba"
+              element={
+                <TemporaryDashboard
+                  pdfUrl={BA_COURSE_LINKS}
                   isDriveLink={true}
                 />
               }
