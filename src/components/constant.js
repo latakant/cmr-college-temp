@@ -90,3 +90,27 @@ export const OPERATIONS_RESEARCH = "";
 export const DIRECT_TAXATION = "";
 export const STRATEGIC_MANAGEMENT = "";
 export const ENTREPRENEURSHIP_DEVELOPMENT = "";
+
+//video
+export const DYNAMICS_OF_HUMAN_BEHAVIOR_MBA_1 =
+  "https://youtu.be/QghwBBFWopI?si=q4CsDIFoACnGHbEZ";
+export const DYNAMICS_OF_HUMAN_BEHAVIOR_MBA_2 =
+  "https://youtu.be/FX7y8OerjlQ?si=aSCehZpruL7SPK21";
+export const HUMAN_RESOURCE_MANAGEMENT =
+  "https://youtu.be/FX7y8OerjlQ?si=-QddH5ZEvMKmlPYI";
+export const MARKETING_MANAGEMENT_1 =
+  "https://youtu.be/9PaSCcKct48?si=fFWEEa5-PmwHK9ex";
+export const MARKETING_MANAGEMENT_2 =
+  "https://youtu.be/4ZF1_l1V95E?si=70nylQxDRxhwyX-s";
+export const DIGITAL_INNOVATION_AND_TRANSFORMATION =
+  "https://youtu.be/cD8HIzClO8I?si=PFjDeusx251ZeTQx";
+export const DIGITAL_MARKETING =
+  "https://youtu.be/cD8HIzClO8I?si=PFjDeusx251ZeTQx";
+export const EMPLOYEE_RELATIONSHIP_MANAGEMENT =
+  "https://youtu.be/h0lHU6MQbEQ?si=5tSizN1fcFvDRFXa";
+export const COMPETENCY_MAPPING =
+  "https://youtu.be/QghwBBFWopI?si=YP4F-nAZZMS6zJCV";
+export const STRATEGIC_ANALYSIS_AND_MANAGEMENT_MBA =
+  "https://youtu.be/EEXwggKhM54?si=nWj7bE4bBzfqOYV0";
+export const LEGAL_ENVIRONMENT_OF_BUSINESS_MBA =
+  "https://youtu.be/ruU3yLRkvOE?si=2426T1VHerIYDRQP";
