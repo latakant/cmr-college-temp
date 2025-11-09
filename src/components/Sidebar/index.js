@@ -1,15 +1,37 @@
-import React from "react";
+import React,{useState} from "react";
 import "./sidebar.css";
 import { NavLink } from "react-router-dom";
 
 function Sidebar() {
+  const [openMenu, setOpenMenu] = useState(null);
+
+  const toggleMenu = (menuName) => {
+    setOpenMenu(openMenu === menuName ? null : menuName);
+  };
   return (
     <div className="sidebar">
       <div className="sidebar-section">
         <div className="sidebar-title">MENU</div>
         <ul className="sidebar-links">
           <li><NavLink to="/about">About Us</NavLink></li>
-          <li><NavLink to="/courses">Courses</NavLink></li>
+          {/* <li><NavLink to="/courses">Courses</NavLink></li> */}
+          <li className="has-submenu">
+            <div
+              className="submenu-header"
+              onClick={() => toggleMenu("courses")}
+            >
+              Courses ▾
+            </div>
+
+            {openMenu === "courses" && (
+              <ul className="submenu">
+                <li><NavLink to="/courses/bba">BBA</NavLink></li>
+                <li><NavLink to="/courses/mba">MBA</NavLink></li>
+                <li><NavLink to="/courses/ma">MA</NavLink></li>
+                <li><NavLink to="/courses/msc">MSc</NavLink></li>
+              </ul>
+            )}
+          </li>
           <li><NavLink to="/anti-ragging">Anti-Ragging</NavLink></li>
           <li><NavLink to="/faculty-staff">Faculty & Staff</NavLink></li>
           <li><NavLink to="/Student-notices">Student Notices</NavLink></li>
