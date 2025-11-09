@@ -14,7 +14,7 @@ import {
   CDOE_PDF,
   BA_COURSE_LINKS,
   MBA_BBA_COURSE_LINKS,
-} from "./constant";
+} from "./components/constant";
 import TemporaryDashboard from "./components/Temporary";
 
 function App() {
