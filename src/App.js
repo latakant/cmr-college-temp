@@ -12,7 +12,7 @@ import {
   PDF_FOR_ANTI_RAGGING,
   CONTACT_LINK,
   CDOE_PDF,
-  BA_COURSE_LINKS,
+  //BA_COURSE_LINKS,
   MBA_BBA_COURSE_LINKS,
 } from "./components/constant";
 import TemporaryDashboard from "./components/Temporary";
