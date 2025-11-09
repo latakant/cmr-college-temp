@@ -9,11 +9,12 @@ import StudentNotices from "./components/Students";
 // import ContactUs from "./components/Contact/ContactUs";
 import FacultyTable from "./components/Faculty";
 import {
-  CDOE_PDF,
-  CONTACT_LINK,
-  DRIVE_LINK_FOR_ANTI_RAGGING,
   PDF_FOR_ANTI_RAGGING,
-} from "./components/constant";
+  CONTACT_LINK,
+  CDOE_PDF,
+  BA_COURSE_LINKS,
+  MBA_BBA_COURSE_LINKS,
+} from "./constant";
 import TemporaryDashboard from "./components/Temporary";
 
 function App() {
