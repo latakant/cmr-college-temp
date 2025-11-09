@@ -21,7 +21,7 @@ function App() {
           <h1 className="heading">Centre for Distance and Online Education</h1>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/courses" element={<TemporaryDashboard pdfUrl={DRIVE_LINK_FOR_ANTI_RAGGING} isDriveLink={true}/>} />
+            <Route path="/courses" element={<TemporaryDashboard pdfUrl={MBA_BBA_COURSE_LINKS} isDriveLink={true}/>} />
             <Route path="/student-notices" element={<StudentNotices/>} />
             <Route path="/faculty-staff" element={<FacultyTable/>} />
             <Route path="/anti-ragging" element={<TemporaryDashboard pdfUrl={PDF_FOR_ANTI_RAGGING}/>} />
