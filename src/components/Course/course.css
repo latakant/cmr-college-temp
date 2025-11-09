@@ -58,3 +58,41 @@
 .po-link:hover {
   color: #b40000;
 }
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #fff;
+}
+
+.course-table th {
+  background-color: #008e87;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 12px;
+}
+
+.course-table td {
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.course-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.course-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.po-link {
+  color: #0073e6;
+  text-decoration: underline;
+}
+
+.po-link:hover {
+  color: #b40000;
+}

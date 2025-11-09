@@ -28,10 +28,13 @@ function Sidebar() {
             {openMenu === "courses" && (
               <ul className="submenu">
                 <li>
-                  <NavLink to="/courses/MBA&bba">MBA and BBA</NavLink>
+                  <NavLink to="/courses/MBA">MBA</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/courses/ba">BA</NavLink>
+                  <NavLink to="/courses/BBA">BBA</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/courses/BA">BA</NavLink>
                 </li>
               </ul>
             )}

@@ -1,0 +1,150 @@
+export const mbaData = [
+  {
+    program: "MASTER OF BUSINESS ADMINISTRATION (MBA)",
+    semesters: [
+      {
+        semester: 1,
+        section: "I SEMESTER",
+        subjects: [
+          {
+            id: "O6ECON5022",
+            name: "Managerial Economics",
+            route: "/courses/mba/Managerial-Economics",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_MANAGERIAL_ECONOMICS",
+          },
+          {
+            id: "O6ACCT6022",
+            name: "Accounting for Managers",
+            route: "/courses/mba/Accounting-for-Managers",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_ACCOUNTING_FOR_MANAGERS",
+          },
+          {
+            id: "O6MGMT5102",
+            name: "Dynamics of Human Behavior",
+            route: "/courses/mba/Dynamics-of-Human-Behavior",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_DYNAMICS_OF_HUMAN_BEHAVIOR",
+          },
+          {
+            id: "O6ANLT6282",
+            name: "Information System and Business Analytics",
+            route: "/courses/mba/Information-System-and-Business-Analytics",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_INFORMATION_SYSTEM_AND_BUSINESS_ANALYTICS",
+          },
+          {
+            id: "O6MKTG5072",
+            name: "Marketing Management",
+            route: "/courses/mba/Marketing-Management",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_MARKETING_MANAGEMENT",
+          },
+          {
+            id: "O6STAT6033",
+            name: "Business Statistics with R",
+            route: "/courses/mba/Business-Statistics-with-R",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_BUSINESS_STATISTICS_WITH_R",
+          },
+          {
+            id: "O6HRMT5122",
+            name: "Human Resource Management",
+            route: "/courses/mba/Human-Resource-Management",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_HUMAN_RESOURCE_MANAGEMENT",
+          },
+        ],
+      },
+      {
+        semester: 2,
+        section: "II SEMESTER",
+        subjects: [
+          {
+            id: "O6MGMT5192",
+            name: "International Business Management",
+            route: "/courses/mba/International-Business-Management",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_INTERNATIONAL_BUSINESS_MANAGEMENT",
+          },
+          {
+            id: "O6MGMT5202",
+            name: "Business Research Methods",
+            route: "/courses/mba/Business-Research-Methods",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_BUSINESS_RESEARCH_METHODS",
+          },
+          {
+            id: "O6FINC5092",
+            name: "Financial Management",
+            route: "/courses/mba/Financial-Management",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_FINANCIAL_MANAGEMENT",
+          },
+          {
+            id: "O6OPSM6072",
+            name: "Operations Research for Managers",
+            route: "/courses/mba/Operations-Research-for-Managers",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_OPERATIONS_RESEARCH_FOR_MANAGERS",
+          },
+        ],
+      },
+      {
+        semester: 3,
+        section: "III SEMESTER",
+        subjects: [
+          {
+            id: "O6MGMT5132",
+            name: "Strategic Analysis and Management",
+            route: "/courses/mba/Strategic-Analysis-and-Management",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_STRATEGIC_ANALYSIS_AND_MANAGEMENT",
+          },
+          {
+            id: "O6OPSM6202",
+            name: "Operations Management",
+            route: "/courses/mba/Operations-Management",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_OPERATIONS_MANAGEMENT",
+          },
+        ],
+      },
+      {
+        semester: 4,
+        section: "IV SEMESTER",
+        subjects: [
+          {
+            id: "O6MGMT5183",
+            name: "Legal Environment of Business",
+            route: "/courses/mba/Legal-Environment-of-Business",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_LEGAL_ENVIRONMENT_OF_BUSINESS",
+          },
+          {
+            id: "O6MGMT5122",
+            name: "Leadership and Capacity Building",
+            route: "/courses/mba/Leadership-and-Capacity-Building",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_LEADERSHIP_AND_CAPACITY_BUILDING",
+          },
+          {
+            id: "O6OPSM5162",
+            name: "Total Quality Management",
+            route: "/courses/mba/Total-Quality-Management",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_TOTAL_QUALITY_MANAGEMENT",
+          },
+          {
+            id: "O6OPSM6232",
+            name: "Technology Management",
+            route: "/courses/mba/Technology-Management",
+            Study_Material: "View Subject",
+            pdfKey: "MBA_TECHNOLOGY_MANAGEMENT",
+          },
+        ],
+      },
+    ],
+  },
+];

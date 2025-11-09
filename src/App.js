@@ -12,10 +12,14 @@ import {
   PDF_FOR_ANTI_RAGGING,
   CONTACT_LINK,
   CDOE_PDF,
-  BA_COURSE_LINKS,
+  //BA_COURSE_LINKS,
   MBA_BBA_COURSE_LINKS,
 } from "./components/constant";
 import TemporaryDashboard from "./components/Temporary";
+import CoursesTable from "./components/Course";
+import { baData } from "./components/Course/baData";
+import { bbaData } from "./components/Course/bbaData";
+import { mbaData } from "./components/Course/mbaData";
 
 function App() {
   return (
@@ -28,22 +32,16 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route
-              path="/courses/MBA&bba"
-              element={
-                <TemporaryDashboard
-                  pdfUrl={MBA_BBA_COURSE_LINKS}
-                  isDriveLink={true}
-                />
-              }
+              path="/courses/MBA"
+              element={<CoursesTable courseData={mbaData} />}
             />
             <Route
-              path="/courses/ba"
-              element={
-                <TemporaryDashboard
-                  pdfUrl={BA_COURSE_LINKS}
-                  isDriveLink={true}
-                />
-              }
+              path="/courses/BBA"
+              element={<CoursesTable courseData={bbaData} />}
+            />
+            <Route
+              path="/courses/BA"
+              element={<CoursesTable courseData={baData} />}
             />
             <Route path="/student-notices" element={<StudentNotices />} />
             <Route path="/faculty-staff" element={<FacultyTable />} />

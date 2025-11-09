@@ -1,0 +1,177 @@
+export const bbaData = [
+  {
+    program: "BACHELOR OF BUSINESS ADMINISTRATION (BBA)",
+    semesters: [
+      {
+        semester: 1,
+        section: "I SEMESTER",
+        subjects: [
+          {
+            id: "O63ACCT1011",
+            name: "Financial Accounting",
+            route: "/courses/bba/Financial-Accounting",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_FINANCIAL_ACCOUNTING",
+          },
+          {
+            id: "O63ITBS1011",
+            name: "Business and Technology",
+            route: "/courses/bba/Business-and-Technology",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_BUSINESS_AND_TECHNOLOGY",
+          },
+          {
+            id: "O63ECON1011",
+            name: "Business Economics",
+            route: "/courses/bba/Business-Economics",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_BUSINESS_ECONOMICS",
+          },
+          {
+            id: "O63MATH1011",
+            name: "Business Mathematics",
+            route: "/courses/bba/Business-Mathematics",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_BUSINESS_MATHEMATICS",
+          },
+        ],
+      },
+      {
+        semester: 2,
+        section: "II SEMESTER",
+        subjects: [
+          {
+            id: "O63MGMT2011",
+            name: "Principles and Practices of Management",
+            route: "/courses/bba/Principles-and-Practices-of-Management",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_PRINCIPLES_AND_PRACTICES_OF_MANAGEMENT",
+          },
+          {
+            id: "O63CBLA2011",
+            name: "Macro Economics",
+            route: "/courses/bba/Macro-Economics",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_MACRO_ECONOMICS",
+          },
+          {
+            id: "O6ITBS2122",
+            name: "Corporate Business Law",
+            route: "/courses/bba/Corporate-Business-Law",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_CORPORATE_BUSINESS_LAW",
+          },
+          {
+            id: "O63STAT2011",
+            name: "Business Statistics with Advanced Excel",
+            route: "/courses/bba/Business-Statistics-with-Advanced-Excel",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_BUSINESS_STATISTICS_WITH_ADVANCED_EXCEL",
+          },
+        ],
+      },
+      {
+        semester: 3,
+        section: "III SEMESTER",
+        subjects: [
+          {
+            id: "O6ACCT2094",
+            name: "Corporate Accounting",
+            route: "/courses/bba/Corporate-Accounting",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_CORPORATE_ACCOUNTING",
+          },
+          {
+            id: "O6HRMT2021",
+            name: "Human Resource Management",
+            route: "/courses/bba/Human-Resource-Management",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_HUMAN_RESOURCE_MANAGEMENT",
+          },
+          {
+            id: "O6OPSM1021",
+            name: "Operations Management",
+            route: "/courses/bba/Operations-Management",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_OPERATIONS_MANAGEMENT",
+          },
+          {
+            id: "O6MKTG2122",
+            name: "Marketing Management",
+            route: "/courses/bba/Marketing-Management",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_MARKETING_MANAGEMENT",
+          },
+        ],
+      },
+      {
+        semester: 4,
+        section: "IV SEMESTER",
+        subjects: [
+          {
+            id: "O6FINC2011",
+            name: "Financial Management",
+            route: "/courses/bba/Financial-Management",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_FINANCIAL_MANAGEMENT",
+          },
+          {
+            id: "O6MGMT1041",
+            name: "Business Research Methods",
+            route: "/courses/bba/Business-Research-Methods",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_BUSINESS_RESEARCH_METHODS",
+          },
+          {
+            id: "O6HRMT1143",
+            name: "Organisational Behavior",
+            route: "/courses/bba/Organisational-Behavior",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_ORGANISATIONAL_BEHAVIOR",
+          },
+        ],
+      },
+      {
+        semester: 5,
+        section: "V SEMESTER",
+        subjects: [
+          {
+            id: "O6ACCT2072",
+            name: "Cost & Management Accounting",
+            route: "/courses/bba/Cost-and-Management-Accounting",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_COST_AND_MANAGEMENT_ACCOUNTING",
+          },
+          {
+            id: "O6OPSM2011",
+            name: "Operations Research",
+            route: "/courses/bba/Operations-Research",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_OPERATIONS_RESEARCH",
+          },
+          {
+            id: "O6TAXN2011",
+            name: "Direct Taxation",
+            route: "/courses/bba/Direct-Taxation",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_DIRECT_TAXATION",
+          },
+          {
+            id: "O6MGMT2061",
+            name: "Strategic Management",
+            route: "/courses/bba/Strategic-Management",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_STRATEGIC_MANAGEMENT",
+          },
+          {
+            id: "O6MGMT1051",
+            name: "Entrepreneurship Development",
+            route: "/courses/bba/Entrepreneurship-Development",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_ENTREPRENEURSHIP_DEVELOPMENT",
+          },
+        ],
+      },
+    ],
+  },
+];

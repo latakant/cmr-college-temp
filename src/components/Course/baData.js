@@ -1,0 +1,496 @@
+export const baData = [
+  {
+    program: "BACHELOR IN ARTS (BA)",
+    semesters: [
+      {
+        semester: 1,
+        section: "I SEMESTER",
+        subjects: [
+          {
+            id: "O7HISG101",
+            name: "Ancient Indian History",
+            route: "/courses/ba/Ancient-Indian-History",
+            Study_Material: "View Subject",
+            pdfKey: "ANCIENT_INDIAN_HISTORY",
+          },
+          {
+            id: "O7POLG201",
+            name: "Basic concepts in Political Science",
+            route: "/courses/ba/Basic-concepts-in-Political-Science",
+            Study_Material: "View Subject",
+            pdfKey: "BASIC_CONCEPTS_IN_POLITICAL_SCIENCE",
+          },
+          {
+            id: "O7JMCG301",
+            name: "Foundations of Communication",
+            route: "/courses/ba/Foundations-of-Communication",
+            Study_Material: "View Subject",
+            pdfKey: "FOUNDATIONS_OF_COMMUNICATION",
+          },
+          {
+            id: "O7SOCG401",
+            name: "Sociology: An Introduction",
+            route: "/courses/ba/Sociology-An-Introduction",
+            Study_Material: "View Subject",
+            pdfKey: "SOCIOLOGY_AN_INTRODUCTION",
+          },
+          {
+            id: "O7TMHG501",
+            name: "Basics of Tourism",
+            route: "/courses/ba/Basics-of-Tourism",
+            Study_Material: "View Subject",
+            pdfKey: "BASICS_OF_TOURISM",
+          },
+          {
+            id: "O7GEG1011",
+            name: "Digital Media Literacy",
+            route: "/courses/ba/Digital-Media-Literacy",
+            Study_Material: "View Subject",
+            pdfKey: "DIGITAL_MEDIA_LITERACY",
+          },
+          {
+            id: "O7CMAG601",
+            name: "Computer Application",
+            route: "/courses/ba/Computer-Application",
+            Study_Material: "View Subject",
+            pdfKey: "COMPUTER_APPLICATION",
+          },
+        ],
+      },
+      {
+        semester: 2,
+        section: "II SEMESTER",
+        subjects: [
+          {
+            id: "O7HISG701",
+            name: "Medieval Indian History",
+            route: "/courses/ba/Medieval-Indian-History",
+            Study_Material: "View Subject",
+            pdfKey: "MEDIEVAL_INDIAN_HISTORY",
+          },
+          {
+            id: "O7POLG801",
+            name: "Introduction to Political Theory",
+            route: "/courses/ba/Introduction-to-Political-Theory",
+            Study_Material: "View Subject",
+            pdfKey: "INTRODUCTION_TO_POLITICAL_THEORY",
+          },
+          {
+            id: "O7JMCG801",
+            name: "Reporting & Editing for Media",
+            route: "/courses/ba/Reporting-and-Editing-for-Media",
+            Study_Material: "View Subject",
+            pdfKey: "REPORTING_AND_EDITING_FOR_MEDIA",
+          },
+          {
+            id: "O7SOCG101",
+            name: "Sociological Foundations",
+            route: "/courses/ba/Sociological-Foundations",
+            Study_Material: "View Subject",
+            pdfKey: "SOCIOLOGICAL_FOUNDATIONS",
+          },
+          {
+            id: "O7TMTG101",
+            name: "Basic concepts of Hospitality Management",
+            route: "/courses/ba/Basic-concepts-of-Hospitality-Management",
+            Study_Material: "View Subject",
+            pdfKey: "BASIC_CONCEPTS_OF_HOSPITALITY_MANAGEMENT",
+          },
+          {
+            id: "O7GEG1201",
+            name: "Film Appreciation",
+            route: "/courses/ba/Film-Appreciation",
+            Study_Material: "View Subject",
+            pdfKey: "FILM_APPRECIATION",
+          },
+        ],
+      },
+      {
+        semester: 3,
+        section: "III SEMESTER",
+        subjects: [
+          {
+            id: "O7HISG131",
+            name: "Modern Indian History-I",
+            route: "/courses/ba/Modern-Indian-History-I",
+            Study_Material: "View Subject",
+            pdfKey: "MODERN_INDIAN_HISTORY_I",
+          },
+          {
+            id: "O7POLG141",
+            name: "Indian Government & Politics",
+            route: "/courses/ba/Indian-Government-and-Politics",
+            Study_Material: "View Subject",
+            pdfKey: "INDIAN_GOVERNMENT_AND_POLITICS",
+          },
+          {
+            id: "O7JMCG151",
+            name: "Introduction to Broadcast Media- Television",
+            route: "/courses/ba/Introduction-to-Broadcast-Media-Television",
+            Study_Material: "View Subject",
+            pdfKey: "INTRODUCTION_TO_BROADCAST_MEDIA_TELEVISION",
+          },
+          {
+            id: "O7SOCG161",
+            name: "Introduction to Social Anthropology",
+            route: "/courses/ba/Introduction-to-Social-Anthropology",
+            Study_Material: "View Subject",
+            pdfKey: "INTRODUCTION_TO_SOCIAL_ANTHROPOLOGY",
+          },
+          {
+            id: "O7TMHG171",
+            name: "Geography of Tourism",
+            route: "/courses/ba/Geography-of-Tourism",
+            Study_Material: "View Subject",
+            pdfKey: "GEOGRAPHY_OF_TOURISM",
+          },
+        ],
+      },
+      {
+        semester: 4,
+        section: "IV SEMESTER",
+        subjects: [
+          {
+            id: "O7HISG181",
+            name: "Modern Indian History-II",
+            route: "/courses/ba/Modern-Indian-History-II",
+            Study_Material: "View Subject",
+            pdfKey: "MODERN_INDIAN_HISTORY_II",
+          },
+          {
+            id: "O7POLG191",
+            name: "Introduction to Human Rights",
+            route: "/courses/ba/Introduction-to-Human-Rights",
+            Study_Material: "View Subject",
+            pdfKey: "INTRODUCTION_TO_HUMAN_RIGHTS",
+          },
+          {
+            id: "O7JMCG201",
+            name: "Introduction Film Making",
+            route: "/courses/ba/Introduction-Film-Making",
+            Study_Material: "View Subject",
+            pdfKey: "INTRODUCTION_FILM_MAKING",
+          },
+          {
+            id: "O7SOCG211",
+            name: "Classical Sociological theories",
+            route: "/courses/ba/Classical-Sociological-Theories",
+            Study_Material: "View Subject",
+            pdfKey: "CLASSICAL_SOCIOLOGICAL_THEORIES",
+          },
+          {
+            id: "O7TMHG221",
+            name: "Tourism Management",
+            route: "/courses/ba/Tourism-Management",
+            Study_Material: "View Subject",
+            pdfKey: "TOURISM_MANAGEMENT",
+          },
+        ],
+      },
+      {
+        semester: 5,
+        section: "V SEMESTER",
+        subjects: [
+          {
+            id: "O7SECG231",
+            name: "Research Methodology",
+            route: "/courses/ba/Research-Methodology",
+            Study_Material: "View Subject",
+            pdfKey: "RESEARCH_METHODOLOGY",
+          },
+          {
+            id: "O7HISG241",
+            name: "Political & Cultural History of Karnataka- I",
+            route: "/courses/ba/Political-and-Cultural-History-of-Karnataka-I",
+            Study_Material: "View Subject",
+            pdfKey: "POLITICAL_AND_CULTURAL_HISTORY_OF_KARNATAKA_I",
+          },
+          {
+            id: "O7HISG251",
+            name: "European History",
+            route: "/courses/ba/European-History",
+            Study_Material: "View Subject",
+            pdfKey: "EUROPEAN_HISTORY",
+          },
+          {
+            id: "O7POCG261",
+            name: "International relations",
+            route: "/courses/ba/International-Relations",
+            Study_Material: "View Subject",
+            pdfKey: "INTERNATIONAL_RELATIONS",
+          },
+          {
+            id: "O7POCG271",
+            name: "Comparative government & Politics",
+            route: "/courses/ba/Comparative-Government-and-Politics",
+            Study_Material: "View Subject",
+            pdfKey: "COMPARATIVE_GOVERNMENT_AND_POLITICS",
+          },
+          {
+            id: "O7JMCG281",
+            name: "Basics of Photography",
+            route: "/courses/ba/Basics-of-Photography",
+            Study_Material: "View Subject",
+            pdfKey: "BASICS_OF_PHOTOGRAPHY",
+          },
+          {
+            id: "O7JMCG291",
+            name: "Basics of Videography",
+            route: "/courses/ba/Basics-of-Videography",
+            Study_Material: "View Subject",
+            pdfKey: "BASICS_OF_VIDEOGRAPHY",
+          },
+          {
+            id: "O7SOCG301",
+            name: "Introduction to Sociological Research",
+            route: "/courses/ba/Introduction-to-Sociological-Research",
+            Study_Material: "View Subject",
+            pdfKey: "INTRODUCTION_TO_SOCIOLOGICAL_RESEARCH",
+          },
+          {
+            id: "O7SOCG311",
+            name: "Airline Ticketing & Ground operations",
+            route: "/courses/ba/Airline-Ticketing-and-Ground-Operations",
+            Study_Material: "View Subject",
+            pdfKey: "AIRLINE_TICKETING_AND_GROUND_OPERATIONS",
+          },
+          {
+            id: "O7GEG3201",
+            name: "Cultural Studies",
+            route: "/courses/ba/Cultural-Studies",
+            Study_Material: "View Subject",
+            pdfKey: "CULTURAL_STUDIES",
+          },
+        ],
+      },
+      {
+        semester: 6,
+        section: "VI SEMESTER",
+        subjects: [
+          {
+            id: "O7HISG331",
+            name: "Political & Cultural History of Karnataka –II",
+            route: "/courses/ba/Political-and-Cultural-History-of-Karnataka-II",
+            Study_Material: "View Subject",
+            pdfKey: "POLITICAL_AND_CULTURAL_HISTORY_OF_KARNATAKA_II",
+          },
+          {
+            id: "O7HISG341",
+            name: "Asian History",
+            route: "/courses/ba/Asian-History",
+            Study_Material: "View Subject",
+            pdfKey: "ASIAN_HISTORY",
+          },
+          {
+            id: "O7POLG351",
+            name: "Public policy",
+            route: "/courses/ba/Public-Policy",
+            Study_Material: "View Subject",
+            pdfKey: "PUBLIC_POLICY",
+          },
+          {
+            id: "O7POLG361",
+            name: "Modern Indian Political Thinkers",
+            route: "/courses/ba/Modern-Indian-Political-Thinkers",
+            Study_Material: "View Subject",
+            pdfKey: "MODERN_INDIAN_POLITICAL_THINKERS",
+          },
+          {
+            id: "O7JMCG371",
+            name: "Advertising & Public Relations",
+            route: "/courses/ba/Advertising-and-Public-Relations",
+            Study_Material: "View Subject",
+            pdfKey: "ADVERTISING_AND_PUBLIC_RELATIONS",
+          },
+          {
+            id: "O7JMCG381",
+            name: "Online Journalism",
+            route: "/courses/ba/Online-Journalism",
+            Study_Material: "View Subject",
+            pdfKey: "ONLINE_JOURNALISM",
+          },
+          {
+            id: "O7SOCG391",
+            name: "Sociology of India",
+            route: "/courses/ba/Sociology-of-India",
+            Study_Material: "View Subject",
+            pdfKey: "SOCIOLOGY_OF_INDIA",
+          },
+          {
+            id: "O7SOCG401",
+            name: "Travel agency & Tour operations",
+            route: "/courses/ba/Travel-Agency-and-Tour-Operations",
+            Study_Material: "View Subject",
+            pdfKey: "TRAVEL_AGENCY_AND_TOUR_OPERATIONS",
+          },
+        ],
+      },
+    ],
+  },
+];
+
+// export const baData = [
+//   // 🎓 BACHELOR IN ARTS (BA)
+//   {
+//     program: "BACHELOR IN ARTS (BA)",
+//     semesters: [
+//       {
+//         semester: 1,
+//         section: "I SEMESTER",
+//         subjects: [
+//           {
+//             id: "O7HISG101",
+//             name: "Ancient Indian History",
+//             route: "/courses/ba/Ancient-Indian-History",
+//             Study_Material: "View Subject",
+//             pdfKey: "BA_Ancient_Indian_History_LINK",
+//           },
+//           {
+//             id: "O7POLG201",
+//             name: "Basic concepts in Political Science",
+//             route: "/courses/ba/Basic-concepts-in-Political-Science",
+//             Study_Material: "View Subject",
+//             pdfKey: "BA_Basic_Concepts_Political_Science_LINK",
+//           },
+//           {
+//             id: "O7JMCG301",
+//             name: "Foundations of Communication",
+//             route: "/courses/ba/Foundations-of-Communication",
+//             Study_Material: "View Subject",
+//             pdfKey: "BA_Foundations_Communication_LINK",
+//           },
+//           {
+//             id: "O7SOCG401",
+//             name: "Sociology: An Introduction",
+//             route: "/courses/ba/Sociology-An-Introduction",
+//             Study_Material: "View Subject",
+//             pdfKey: "BA_Sociology_Intro_LINK",
+//           },
+//           {
+//             id: "O7TMHG501",
+//             name: "Basics of Tourism",
+//             route: "/courses/ba/Basics-of-Tourism",
+//             Study_Material: "View Subject",
+//             pdfKey: "BA_Basics_Tourism_LINK",
+//           },
+//           {
+//             id: "O7GEG1011",
+//             name: "Digital Media Literacy",
+//             route: "/courses/ba/Digital-Media-Literacy",
+//             Study_Material: "View Subject",
+//             pdfKey: "BA_Digital_Media_Literacy_LINK",
+//           },
+//           {
+//             id: "O7CMAG601",
+//             name: "Computer Application",
+//             route: "/courses/ba/Computer-Application",
+//             Study_Material: "View Subject",
+//             pdfKey: "BA_Computer_Application_LINK",
+//           },
+//         ],
+//       },
+//       //continue the same structure for other semesters
+//     ],
+//   },
+
+//   // 🎓 BACHELOR OF BUSINESS ADMINISTRATION (BBA)
+
+//   {
+//     program: "BACHELOR OF BUSINESS ADMINISTRATION (BBA)",
+//     semesters: [
+//       {
+//         semester: 1,
+//         section: "I SEMESTER",
+//         subjects: [
+//           {
+//             id: "O63ACCT1011",
+//             name: "Financial Accounting",
+//             route: "/courses/bba/Financial-Accounting",
+//             Study_Material: "View Subject",
+//             pdfKey: "BBA_Financial_Accounting_LINK",
+//           },
+//           {
+//             id: "O63ITBS1011",
+//             name: "Business and Technology",
+//             route: "/courses/bba/Business-and-Technology",
+//             Study_Material: "View Subject",
+//             pdfKey: "BBA_Business_Technology_LINK",
+//           },
+//           {
+//             id: "O63ECON1011",
+//             name: "Business Economics",
+//             route: "/courses/bba/Business-Economics",
+//             Study_Material: "View Subject",
+//             pdfKey: "BBA_Business_Economics_LINK",
+//           },
+//           {
+//             id: "O63MATH1011",
+//             name: "Business Mathematics",
+//             route: "/courses/bba/Business-Mathematics",
+//             Study_Material: "View Subject",
+//             pdfKey: "BBA_Business_Mathematics_LINK",
+//           },
+//         ],
+//       },
+//     ],
+//   },
+// ];
+
+// export const courseData = [
+//   {
+//     name: "Managerial Economics",
+//     id: "O6ECON5022",
+//     Study_Material: "View Subject",
+//     route: "/courses/MBA&bba/Managerial-Economics",
+//     semester: 1,
+//   },
+//   {
+//     name: "Accounting for Managers",
+//     id: "O6ACCT6022",
+//     Study_Material: "View Subject",
+//     route: "/courses/Accounting-for-Managers/",
+//     semester: 1,
+//   },
+//   {
+//     name: "Dynamics of Human Behavior",
+//     id: "O6MGMT5102",
+//     Study_Material: "View Subject",
+//     route: "/courses/Dynamics-of-Human-Behavior/",
+//     semester: 1,
+//   },
+//   {
+//     name: "Information System and Business Analytics",
+//     id: "O6ANLT6282",
+//     Study_Material: "View Subject",
+//     route: "/courses/Information-System-and-Business-Analytics/",
+//     semester: 1,
+//   },
+//   {
+//     name: "Marketing Management",
+//     id: "O6MKTG5072 ",
+//     Study_Material: "View Subject",
+//     route: "/courses/Marketing-Management/",
+//     semester: 1,
+//   },
+//   {
+//     name: "Business Statistics with R",
+//     id: "O6STAT6033",
+//     Study_Material: "View Subject",
+//     route: "/courses/Business-Statistics-with-R/",
+//     semester: 1,
+//   },
+//   {
+//     name: "Human Resource Management",
+//     id: "O6HRMT5122",
+//     Study_Material: "View Subject",
+//     route: "/courses/Human-Resource-Management/",
+//     semester: 1,
+//   },
+// ];
+
+// const exportDefault = [
+//   {
+//     name: "MBA & BBA Courses",
+//     courses: courseData,
+//   },
+// ];

@@ -114,3 +114,99 @@ export const STRATEGIC_ANALYSIS_AND_MANAGEMENT_MBA =
   "https://youtu.be/EEXwggKhM54?si=nWj7bE4bBzfqOYV0";
 export const LEGAL_ENVIRONMENT_OF_BUSINESS_MBA =
   "https://youtu.be/ruU3yLRkvOE?si=2426T1VHerIYDRQP";
+
+// 🎓 BACHELOR IN ARTS (BA)
+
+// I SEMESTER
+export const ANCIENT_INDIAN_HISTORY =
+  "https://drive.google.com/file/d/16NYQu8HaBK02hGinYj22VOIh3WMsq9Jc/view?usp=sharing";
+export const BASIC_CONCEPTS_IN_POLITICAL_SCIENCE =
+  "https://drive.google.com/file/d/1SNl9zdC6v26SSw02Ajelvh7uOEGEFgn9/view?usp=sharing";
+export const FOUNDATIONS_OF_COMMUNICATION =
+  "https://drive.google.com/file/d/1dVHRJHA5fxgq29n9r9i0mzFM--VRsEuT/view?usp=sharing";
+export const SOCIOLOGY_AN_INTRODUCTION =
+  "https://drive.google.com/file/d/1MqyGrS815peP1dekxT7F12yeCsKSN9OV/view?usp=sharing";
+export const BASICS_OF_TOURISM =
+  "https://drive.google.com/file/d/11P3JryAauYQzM3LYsev72djHuAwqeaxU/view?usp=sharing";
+export const DIGITAL_MEDIA_LITERACY =
+  "https://drive.google.com/file/d/1_SAjVJfmRL0WCHbWCsVu4VDBGKu76tx3/view?usp=sharing";
+export const COMPUTER_APPLICATION =
+  "https://drive.google.com/file/d/1_z1vtZ2PlL8L6e3sRvVvUNHv3adFYBgY/view?usp=sharing";
+
+// II SEMESTER
+export const MEDIEVAL_INDIAN_HISTORY =
+  "https://drive.google.com/file/d/1ffs26Befuv4xzRSHwjYXeEBR5YFKA1k0/view?usp=sharing";
+export const INTRODUCTION_TO_POLITICAL_THEORY =
+  "https://drive.google.com/file/d/1Hn7yCn8COWe0kjbzdBqQJirnFMRi93q7/view?usp=sharing";
+export const REPORTING_AND_EDITING_FOR_MEDIA =
+  "https://drive.google.com/file/d/1ENaNtOdkEEpX0ggRXSlbbdMY4BxUJHt7/view?usp=sharing";
+export const SOCIOLOGICAL_FOUNDATIONS =
+  "https://drive.google.com/file/d/1KiIw-o_NQ6D016WBWSauHjMpX2RX0qLL/view?usp=sharing";
+export const BASIC_CONCEPTS_OF_HOSPITALITY_MANAGEMENT =
+  "https://drive.google.com/file/d/1eXekXf19IzTEtkAT71xPxv6ca_GfdiVm/view?usp=sharing";
+export const FILM_APPRECIATION =
+  "https://drive.google.com/file/d/1nRx2P_VtR-3Y2GeROwErsnhfUd-UeP2c/view?usp=sharing";
+
+// III SEMESTER
+export const MODERN_INDIAN_HISTORY_I =
+  "https://drive.google.com/file/d/11NDEhYDa1TO1Ma3itCs_XJEVqU9ts86L/view?usp=sharing";
+export const INDIAN_GOVERNMENT_AND_POLITICS =
+  "https://drive.google.com/file/d/1jIAC9uJB-Hj5SRvI7aErzVRWR9MubdVj/view?usp=sharing";
+export const INTRODUCTION_TO_BROADCAST_MEDIA_TELEVISION =
+  "https://drive.google.com/file/d/10T8Ld-MXt515FLGiMZU7KIZBwYDc0nea/view?usp=sharing";
+export const INTRODUCTION_TO_SOCIAL_ANTHROPOLOGY =
+  "https://drive.google.com/file/d/1MzyXUuEVPbpzEK79jvyR67COlH-sjvKV/view?usp=sharing";
+export const GEOGRAPHY_OF_TOURISM =
+  "https://drive.google.com/file/d/1VOq04OaLXZq4xzx12x4iNDxhb_dtOMxA/view?usp=sharing";
+
+// IV SEMESTER
+export const MODERN_INDIAN_HISTORY_II =
+  "https://drive.google.com/file/d/1Fk_8ihCm8wy749irgsxLO3010tVJfYZt/view?usp=sharing";
+export const INTRODUCTION_TO_HUMAN_RIGHTS =
+  "https://drive.google.com/file/d/1ic_iHzkHKWlK26BUfVEyMVqi-Z5TNxiy/view?usp=sharing";
+export const INTRODUCTION_FILM_MAKING =
+  "https://drive.google.com/file/d/1NLZUZ62T3UuepCQ-__iCNl20Km5RtQ9m/view?usp=sharing";
+export const CLASSICAL_SOCIOLOGICAL_THEORIES =
+  "https://drive.google.com/file/d/1sedSUvFfXWuEm4wiBMVaR0uZutyh5jdk/view?usp=sharing";
+export const TOURISM_MANAGEMENT =
+  "https://drive.google.com/file/d/10dTb3MOvDHvY6Jt75W1fDIpEadd_Wa5j/view?usp=sharing";
+
+// V SEMESTER
+export const RESEARCH_METHODOLOGY =
+  "https://drive.google.com/file/d/1KADmq31KPNTiIfQk6G44qQEn72w1QbLp/view?usp=sharing";
+export const POLITICAL_AND_CULTURAL_HISTORY_OF_KARNATAKA_I =
+  "https://docs.google.com/document/d/1j7govVW8Yoy5D-A-Cu0psTcF8aI2MczXTeQPz4PBK08/edit?usp=sharing";
+export const EUROPEAN_HISTORY =
+  "https://drive.google.com/file/d/1IHGSK83YeTfTcMWU03x9q1T1pwa-49LE/view?usp=sharing";
+export const INTERNATIONAL_RELATIONS =
+  "https://drive.google.com/file/d/1qpkDEgG30RgPBquDrJKf5kO1GZAqGhVa/view?usp=sharing";
+export const COMPARATIVE_GOVERNMENT_AND_POLITICS =
+  "https://drive.google.com/file/d/1CRf6UgBfg0hHwFrTSysSAFHA7AQtBXev/view?usp=sharing";
+export const BASICS_OF_PHOTOGRAPHY =
+  "https://drive.google.com/file/d/1p3X4TuwdWIDUz5JlVUSyMGb0ETwnatMp/view?usp=sharing";
+export const BASICS_OF_VIDEOGRAPHY =
+  "https://drive.google.com/file/d/1GumoNGbnbbqyFXDUeyXR2z4Uv1NXgvSJ/view?usp=sharing";
+export const INTRODUCTION_TO_SOCIOLOGICAL_RESEARCH =
+  "https://drive.google.com/file/d/1RXiw-H8wuRuBm0Vjb5t2PeHsnk7ZePLv/view?usp=sharing";
+export const AIRLINE_TICKETING_AND_GROUND_OPERATIONS =
+  "https://drive.google.com/file/d/12dSQkNieOaog8ZOvHmKt9lknbgnvxxgA/view?usp=sharing";
+export const CULTURAL_STUDIES =
+  "https://drive.google.com/file/d/17cArdeG_JcFSInCafhi8heWpcO8zDdVG/view?usp=sharing";
+
+// VI SEMESTER
+export const POLITICAL_AND_CULTURAL_HISTORY_OF_KARNATAKA_II =
+  "https://drive.google.com/file/d/18-Ss9GNZrhoneSh_mhtKnwKqGexlBqZ3/view?usp=sharing";
+export const ASIAN_HISTORY =
+  "https://drive.google.com/file/d/11PVraNxaZli0rIcrzE-_jymMadQA_qwI/view?usp=sharing";
+export const PUBLIC_POLICY =
+  "https://drive.google.com/file/d/13ZKDdhR6CqvYBg9fg3enJmPR-5mBSROk/view?usp=sharing";
+export const MODERN_INDIAN_POLITICAL_THINKERS =
+  "https://drive.google.com/file/d/1TRA_egi-UplKPwACOh15FKnsbF7kDWCn/view?usp=sharing";
+export const ADVERTISING_AND_PUBLIC_RELATIONS =
+  "https://drive.google.com/file/d/14NG660petsNXt2Skbkp04-L4kAnla6L-/view?usp=sharing";
+export const ONLINE_JOURNALISM =
+  "https://drive.google.com/file/d/1fOnt2OQYYdqnsxEYO4313k7Xfg9auobn/view?usp=sharing";
+export const SOCIOLOGY_OF_INDIA =
+  "https://drive.google.com/file/d/1KlQzW1qOgwAIJeRpHAZlLtkYhv_LcSt0/view?usp=sharing";
+export const TRAVEL_AGENCY_AND_TOUR_OPERATIONS =
+  "https://drive.google.com/file/d/1v7F5hgse1_6uMgb1WX8qk2Wemg97Pt9M/view?usp=sharing";
