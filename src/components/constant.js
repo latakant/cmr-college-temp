@@ -1,3 +1,5 @@
+//versaL_tOKEN=V2SyEjkTInNisyrPxmry1kA8
+
 export const PDF_FOR_ANTI_RAGGING =
   "https://www.cmr.edu.in/wp-content/uploads/2025/10/Anti-Ragging-2025.pdf";
 export const CONTACT_LINK =

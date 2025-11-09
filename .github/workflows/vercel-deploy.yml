@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # allows manual trigger
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -17,31 +17,22 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20 # ✅ Required for latest Vercel CLI
+          node-version: 20
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build project
-        run: |
-          echo "Building project..."
-          CI=false npm run build
+      - name: Build React app
+        run: npm run build
 
-      - name: Pull Vercel environment info
+      - name: Link and Pull Environment from Vercel
         run: |
           echo "Linking Vercel project..."
           npx vercel link --yes --project ${{ secrets.VERCEL_PROJECT_ID }} --scope ${{ secrets.VERCEL_ORG_ID }} --token ${{ secrets.VERCEL_TOKEN }}
-
           echo "Pulling environment info..."
           npx vercel pull --yes --environment=production --token ${{ secrets.VERCEL_TOKEN }}
-        env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
-      - name: Deploy to Vercel (Production)
+      - name: Deploy to Vercel
         run: |
           echo "Deploying to Vercel..."
-          npx vercel deploy --prebuilt --prod --token ${{ secrets.VERCEL_TOKEN }}
-        env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          npx vercel deploy --prod --token=${{ secrets.VERCEL_TOKEN }}
