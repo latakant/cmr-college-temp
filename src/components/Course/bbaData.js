@@ -172,6 +172,19 @@ export const bbaData = [
           },
         ],
       },
+      {
+        semester: 6,
+        section: "V SEMESTER",
+        subjects: [
+          {
+            id: "O6MGMT1051",
+            name: "Entrepreneurship Development",
+            route: "/courses/bba/Entrepreneurship-Development",
+            Study_Material: "View Subject",
+            pdfKey: "BBA_ENTREPRENEURSHIP_DEVELOPMENT",
+          },
+        ],
+      },
     ],
   },
 ];
