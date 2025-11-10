@@ -9,7 +9,7 @@ export const bbaData = [
           {
             id: "O63ACCT1011",
             name: "Financial Accounting",
-            route: "/courses/bba/Financial-Accounting",
+            route: "/courses/bba/semester-I/Financial-Accounting",
             Study_Material: "View Subject",
             pdfKey: "BBA_FINANCIAL_ACCOUNTING",
           },

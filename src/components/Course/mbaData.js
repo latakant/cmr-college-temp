@@ -9,7 +9,7 @@ export const mbaData = [
           {
             id: "O6ECON5022",
             name: "Managerial Economics",
-            route: "/courses/mba/Managerial-Economics",
+            route: "/courses/mba/semester-I/Managerial-Economics",
             Study_Material: "View Subject",
             pdfKey: "MBA_MANAGERIAL_ECONOMICS",
           },

@@ -4,24 +4,28 @@ import Sidebar from "./components/Sidebar";
 import "./App.css";
 import Home from "./components/Home";
 import AboutCMR from "./components/AboutUs";
-// import CoursesTable from "./components/Course";
 import StudentNotices from "./components/Students";
-// import ContactUs from "./components/Contact/ContactUs";
 import FacultyTable from "./components/Faculty";
-import {
-  PDF_FOR_ANTI_RAGGING,
-  CONTACT_LINK,
-  CDOE_PDF,
-  //BA_COURSE_LINKS,
-  //MBA_BBA_COURSE_LINKS,
-} from "./components/constant";
 import TemporaryDashboard from "./components/Temporary";
 import CoursesTable from "./components/Course";
 import { baData } from "./components/Course/baData";
 import { bbaData } from "./components/Course/bbaData";
 import { mbaData } from "./components/Course/mbaData";
+import {
+  PDF_FOR_ANTI_RAGGING,
+  CONTACT_LINK,
+  CDOE_PDF,
+  pdfLinksMap,
+} from "./components/constant";
 
 function App() {
+  const allCourses = [...mbaData, ...bbaData, ...baData];
+
+  // Flatten all subject routes
+  const allSubjectRoutes = allCourses.flatMap((course) =>
+    course.semesters.flatMap((sem) => sem.subjects)
+  );
+
   return (
     <div className="app-container">
       <Header />
@@ -49,8 +53,6 @@ function App() {
               path="/anti-ragging"
               element={<TemporaryDashboard pdfUrl={PDF_FOR_ANTI_RAGGING} />}
             />
-            <Route path="/students" element={<div>Students Page</div>} />
-            <Route path="/results" element={<div>Results Page</div>} />
             <Route
               path="/contact"
               element={
@@ -62,6 +64,23 @@ function App() {
               path="/brochures"
               element={<TemporaryDashboard pdfUrl={CDOE_PDF} />}
             />
+
+            {/* 🧩 Auto-generated subject routes */}
+            {allSubjectRoutes.map((subject) => {
+              const pdfUrl = pdfLinksMap[subject.pdfKey];
+              if (!pdfUrl) return null; // Skip if missing
+
+              const isDrive = pdfUrl.includes("drive.google.com");
+              return (
+                <Route
+                  key={subject.id}
+                  path={subject.route}
+                  element={
+                    <TemporaryDashboard pdfUrl={pdfUrl} isDriveLink={isDrive} />
+                  }
+                />
+              );
+            })}
           </Routes>
         </div>
       </div>
