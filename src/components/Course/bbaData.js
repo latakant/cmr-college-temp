@@ -163,13 +163,6 @@ export const bbaData = [
             Study_Material: "View Subject",
             pdfKey: "BBA_STRATEGIC_MANAGEMENT",
           },
-          {
-            id: "O6MGMT1051",
-            name: "Entrepreneurship Development",
-            route: "/courses/bba/Entrepreneurship-Development",
-            Study_Material: "View Subject",
-            pdfKey: "BBA_ENTREPRENEURSHIP_DEVELOPMENT",
-          },
         ],
       },
       {

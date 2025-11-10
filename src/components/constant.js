@@ -72,7 +72,7 @@ export const MACRO_ECONOMICS =
 export const CORPORATE_BUSINESS_LAW =
   "https://drive.google.com/file/d/16kIYtfit-4Lg9CnF6iGEzMiZA5ucyTJi/";
 export const BUSINESS_STATISTICS_WITH_ADVANCED_EXCEL =
-  "https://drive.google.com/file/d";
+  "https://drive.google.com/file/d/1uXvy2_BW6Wh3hOZ-SPise_yFmeN_N6F9/";
 //sem-III
 export const CORPORATE_ACCOUNTING =
   "https://drive.google.com/file/d/14Gy_XbiuCd-j7_TCLza_SliZUiMW51Qe/";
@@ -81,17 +81,26 @@ export const HUMAN_RESOURCE_MANAGEMENT_BBA =
 export const MARKETING_MANAGEMENT_BBA =
   "https://drive.google.com/file/d/1Ohn0V-mTcBQXVFLCTHI_dZmdP_mJvWG7/";
 export const OPERATIONS_MANAGEMENT_BBA =
-  "https://drive.google.com/file/d/12ZvPdnIMXuMBWyTijbnuB4L7YHdCVlbb/view?usp=sharing";
+  "https://drive.google.com/file/d/12ZvPdnIMXuMBWyTijbnuB4L7YHdCVlbb/";
 //sem-IV
-export const FINANCIAL_MANAGEMENT_BBA = "";
-export const BUSINESS_RESEARCH_METHODS_BBA = "";
-export const ORGANISATIONAL_BEHAVIOR = "";
+export const FINANCIAL_MANAGEMENT_BBA =
+  "https://drive.google.com/file/d/1dRIBf2xgQH4TgL9-FMxKrU6XYedmu7e_/";
+export const BUSINESS_RESEARCH_METHODS_BBA =
+  "https://drive.google.com/file/d/10rBG33kOOrSq2fJx_XsHVmEy42gztFr7/";
+export const ORGANISATIONAL_BEHAVIOR =
+  "https://drive.google.com/file/d/16J6oYzKUM96ckjyCbGzyG83X1fyMOtNE/";
 //sem-V
-export const COST_MANAGEMENT_ACCOUNTING = "";
-export const OPERATIONS_RESEARCH = "";
-export const DIRECT_TAXATION = "";
-export const STRATEGIC_MANAGEMENT = "";
-export const ENTREPRENEURSHIP_DEVELOPMENT = "";
+export const COST_MANAGEMENT_ACCOUNTING =
+  "https://drive.google.com/file/d/1_IJXsdbGPCFzb1ZYq7R-fQi4axLaHEHV/";
+export const OPERATIONS_RESEARCH =
+  "https://drive.google.com/file/d/1rYirGF6GOin4HJlZLLCHmBAJXbnSkmLy/";
+export const DIRECT_TAXATION =
+  "https://drive.google.com/file/d/1accCSrTJFNpDbMX63OBuisptW9KGwwmS/";
+export const STRATEGIC_MANAGEMENT =
+  "https://drive.google.com/file/d/1hfzFaQ25cvFdXPc16Uw1IqtOb0hIAI2H/";
+//sem-VI
+export const ENTREPRENEURSHIP_DEVELOPMENT =
+  "https://drive.google.com/file/d/1vBeP9P2fEx4TBdXXvR_MId0f_0LpcBzP/";
 
 //video
 export const DYNAMICS_OF_HUMAN_BEHAVIOR_MBA_1 =
