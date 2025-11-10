@@ -18,7 +18,7 @@ export const MANAGERIAL_ECONOMICS_LINK =
 export const ACCOUNTING_OR_MANAGERS =
   "https://drive.google.com/file/d/1AQIlFrw4QlrXy7NaP09KLMoaENRq6LhB/";
 export const DYNAMICS_OF_HUMAN_BEHAVI =
-  "https://drive.google.com/file/d/16oVio0HO_2rR7wjv2BRHdyYVxmzszGqT/";
+  "https://drive.google.com/file/d/1usriC8Pczb9Qs7Yc-C1NcemjMcGdxWyH/";
 export const INFORMATION_SYSTEM_AND_BUSINESS_ANALYTI =
   "https://drive.google.com/file/d/1vWK7LKG268aYoOAbdh2BLfjhfkjVce7F/";
 export const MARKETING_MANAGEMENT_M =
