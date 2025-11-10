@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 
 export default function Page() {
@@ -8,7 +7,8 @@ export default function Page() {
       <div className="container">
         <h2>{slug ? slug.replace("-", " ").toUpperCase() : "Page"}</h2>
         <p>
-          This is a placeholder page for <strong>{slug}</strong>. Replace with actual page content.
+          This is a placeholder page for <strong>{slug}</strong>. Replace with
+          actual page content.
         </p>
       </div>
     </div>

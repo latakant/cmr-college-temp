@@ -162,7 +162,7 @@ export const FILM_APPRECIATION =
 export const MODERN_INDIAN_HISTORY_I =
   "https://drive.google.com/file/d/11NDEhYDa1TO1Ma3itCs_XJEVqU9ts86L/";
 export const INDIAN_GOVERNMENT_AND_POLITICS =
-  "https://drive.google.com/file/d/1jIAC9uJB-Hj5SRvI7aErzVRWR9MubdVj/";
+  "https://drive.google.com/file/d/1KefkfP2coH16MZJ2-eaYD4rdz3mJ1yLx/";
 export const INTRODUCTION_TO_BROADCAST_MEDIA_TELEVISION =
   "https://drive.google.com/file/d/10T8Ld-MXt515FLGiMZU7KIZBwYDc0nea/";
 export const INTRODUCTION_TO_SOCIAL_ANTHROPOLOGY =
@@ -220,7 +220,7 @@ export const ONLINE_JOURNALISM =
 export const SOCIOLOGY_OF_INDIA =
   "https://drive.google.com/file/d/1KlQzW1qOgwAIJeRpHAZlLtkYhv_LcSt0/";
 export const TRAVEL_AGENCY_AND_TOUR_OPERATIONS =
-  "https://drive.google.com/file/d/1j-5OBRqoV6EOSra6R37QoI7SqBZyXzXE/";
+  "https://drive.google.com/file/d/1v7F5hgse1_6uMgb1WX8qk2Wemg97Pt9M/";
 
 export const pdfLinksMap = {
   // MBA

@@ -9,14 +9,10 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo-section">
-          <img
-            src="/logo.png"
-            alt="CDOE Logo"
-            className="navbar-logo"
-          />
+          <img src="/logo.png" alt="CDOE Logo" className="navbar-logo" />
           <div className="navbar-title">
             <h2>Centre for Distance and Online Education</h2>
-            <p>Panjab University, Chandigarh</p>
+            <p>CMR University, Bengaluru</p>
           </div>
         </div>
 
@@ -30,13 +26,27 @@ function Navbar() {
         </div>
 
         <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About Us</Link></li>
-          <li><Link to="/courses">Courses</Link></li>
-          <li><Link to="/admissions">Admissions</Link></li>
-          <li><Link to="/students">Students</Link></li>
-          <li><Link to="/results">Results</Link></li>
-          <li><Link to="/contact">Contact Us</Link></li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About Us</Link>
+          </li>
+          <li>
+            <Link to="/courses">Courses</Link>
+          </li>
+          <li>
+            <Link to="/admissions">Admissions</Link>
+          </li>
+          <li>
+            <Link to="/students">Students</Link>
+          </li>
+          <li>
+            <Link to="/results">Results</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact Us</Link>
+          </li>
         </ul>
       </div>
     </nav>

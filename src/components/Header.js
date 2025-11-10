@@ -18,9 +18,15 @@ function Header() {
         </div>
 
         <div className="header-right">
-          <a href="/" className="header-link">Home</a>
-          <a href="/mail" className="header-link">PU@Mail</a>
-          <a href="/contact" className="header-link">Contact PU</a>
+          <a href="/" className="header-link">
+            Home
+          </a>
+          <a href="/mail" className="header-link">
+            CMRU@Mail
+          </a>
+          <a href="/contact" className="header-link">
+            Contact CMRU
+          </a>
         </div>
       </div>
 
