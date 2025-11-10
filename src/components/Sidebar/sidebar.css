@@ -77,15 +77,24 @@
   padding: 8px 12px;
   font-weight: 500;
   color: #333;
+  content: "➜";
 }
 
 .submenu {
-  margin-left: 15px;
-  margin-top: 5px;
+  margin: 0px;
+  /* margin-top: 5px; */
+
 }
+.submenu li a::before {
+  content: "➜";
+  color: #0077c0;
+  margin-right: 5px;
+}
+
 
 .submenu li {
   padding: 6px 0;
+  list-style-type: none;
 }
 
 .has-submenu .submenu a {

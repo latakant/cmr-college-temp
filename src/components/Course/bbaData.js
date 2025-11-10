@@ -172,7 +172,7 @@ export const bbaData = [
           {
             id: "O6MGMT1051",
             name: "Entrepreneurship Development",
-            route: "/courses/bba/Entrepreneurship-Development",
+            route: "/courses/bba/semester-VI/Entrepreneurship-Development",
             Study_Material: "View Subject",
             pdfKey: "BBA_ENTREPRENEURSHIP_DEVELOPMENT",
           },

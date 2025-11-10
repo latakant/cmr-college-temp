@@ -1,5 +1,7 @@
-//versaL_tOKEN=V2SyEjkTInNisyrPxmry1kA8
+// ⚙️ Environment
+export const VERCEL_TOKEN = "V2SyEjkTInNisyrPxmry1kA8";
 
+// 📄 General Links
 export const PDF_FOR_ANTI_RAGGING =
   "https://www.cmr.edu.in/wp-content/uploads/2025/10/Anti-Ragging-2025.pdf";
 export const CONTACT_LINK =
@@ -11,24 +13,37 @@ export const BA_COURSE_LINKS =
 export const MBA_BBA_COURSE_LINKS =
   "https://docs.google.com/document/d/1Ud4iOGH81T06sAWrnuA3Q18XKY0YcRq0c_rU4EkKtwg/";
 
-//STUDY MATERIALS MBA
-//sem-I
+// ====================
+// 🎓 MBA STUDY MATERIALS
+// ====================
+
+// sem-I
 export const MANAGERIAL_ECONOMICS_LINK =
   "https://drive.google.com/file/d/11v-YKMnGL2MztMEgycN8Wgaf8HHHQWNi/";
-export const ACCOUNTING_OR_MANAGERS =
+export const ACCOUNTING_FOR_MANAGERS =
   "https://drive.google.com/file/d/1AQIlFrw4QlrXy7NaP09KLMoaENRq6LhB/";
-export const DYNAMICS_OF_HUMAN_BEHAVI =
+export const DYNAMICS_OF_HUMAN_BEHAVIOR =
   "https://drive.google.com/file/d/1usriC8Pczb9Qs7Yc-C1NcemjMcGdxWyH/";
-export const INFORMATION_SYSTEM_AND_BUSINESS_ANALYTI =
+export const DYNAMICS_OF_HUMAN_BEHAVIOR_VIDEO_1 =
+  "https://youtu.be/QghwBBFWopI?si=q4CsDIFoACnGHbEZ";
+export const DYNAMICS_OF_HUMAN_BEHAVIOR_VIDEO_2 =
+  "https://youtu.be/FX7y8OerjlQ?si=aSCehZpruL7SPK21";
+export const INFORMATION_SYSTEM_AND_BUSINESS_ANALYTICS =
   "https://drive.google.com/file/d/1vWK7LKG268aYoOAbdh2BLfjhfkjVce7F/";
-export const MARKETING_MANAGEMENT_M =
+export const MARKETING_MANAGEMENT =
   "https://drive.google.com/file/d/1l0RhxoFLfRV6vUsXYVqn9i9-OEupNNCF/";
-export const BUSINESS_STATISTICS_WITH =
+export const MARKETING_MANAGEMENT_VIDEO_1 =
+  "https://youtu.be/9PaSCcKct48?si=fFWEEa5-PmwHK9ex";
+export const MARKETING_MANAGEMENT_VIDEO_2 =
+  "https://youtu.be/4ZF1_l1V95E?si=70nylQxDRxhwyX-s";
+export const BUSINESS_STATISTICS_WITH_R =
   "https://drive.google.com/file/d/1Kwounr9KPykIO-kUU-ZgDvLzAVynyvUp/";
-export const HUMAN_RESOURCE_MANAGEMENT_M =
+export const HUMAN_RESOURCE_MANAGEMENT =
   "https://drive.google.com/file/d/1u8H19TnSuWfYZcpDOvjaloXOebC6Cz9e/";
+export const HUMAN_RESOURCE_MANAGEMENT_VIDEO =
+  "https://youtu.be/FX7y8OerjlQ?si=-QddH5ZEvMKmlPYI";
 
-//sem-II
+// sem-II
 export const INTERNATIONAL_BUSINESS_MANAGEMENT =
   "https://drive.google.com/file/d/1zRYMjtZygX68JVANFpKteYQ2uPjA8vxl/";
 export const BUSINESS_RESEARCH_METHODS =
@@ -37,14 +52,26 @@ export const FINANCIAL_MANAGEMENT_MBA =
   "https://drive.google.com/file/d/1J-u8172mgMUNxMieLiCQ0FI69bLJxu0i/";
 export const OPERATIONS_RESEARCH_FOR_MANAGERS =
   "https://drive.google.com/file/d/1UdZX_iG2kMRf7CWI7AFbq0HYVWCtGTDz/";
+export const DIGITAL_INNOVATION_AND_TRANSFORMATION_VIDEO =
+  "https://youtu.be/cD8HIzClO8I?si=PFjDeusx251ZeTQx";
+export const DIGITAL_MARKETING_VIDEO =
+  "https://youtu.be/cD8HIzClO8I?si=PFjDeusx251ZeTQx";
+export const EMPLOYEE_RELATIONSHIP_MANAGEMENT_VIDEO =
+  "https://youtu.be/h0lHU6MQbEQ?si=5tSizN1fcFvDRFXa";
+export const COMPETENCY_MAPPING_VIDEO =
+  "https://youtu.be/QghwBBFWopI?si=YP4F-nAZZMS6zJCV";
+export const STRATEGIC_ANALYSIS_AND_MANAGEMENT_VIDEO =
+  "https://youtu.be/EEXwggKhM54?si=nWj7bE4bBzfqOYV0";
+export const LEGAL_ENVIRONMENT_OF_BUSINESS_VIDEO =
+  "https://youtu.be/ruU3yLRkvOE?si=2426T1VHerIYDRQP";
 
-//sem-III
+// sem-III
 export const STRATEGIC_ANALYSIS_AND_MANAGEMENT =
   "https://drive.google.com/file/d/1eHsZAncU-eXZY3qxgGQWQf_ZlPh1vBOS/";
 export const OPERATIONS_MANAGEMENT_MBA =
   "https://drive.google.com/file/d/1CgikTczkMt5lO0g7UO32Vf1UInYkr_H-/";
 
-//sem-IV
+// sem-IV
 export const LEGAL_ENVIRONMENT_OF_BUSINESS =
   "https://drive.google.com/file/d/1JpL86SRXtp6Nk6g9rPfdP7nsYfGtsaaR/";
 export const LEADERSHIP_AND_CAPACITY_BUILDING =
@@ -54,8 +81,11 @@ export const TOTAL_QUALITY_MANAGEMENT =
 export const TECHNOLOGY_MANAGEMENT =
   "https://drive.google.com/file/d/1BjuBmNxwqPLrh_RuSGb-7eILp94-4-Yq/";
 
-//STUDY MATERIALS BBA
-//sem-I
+// ====================
+// 🎓 BBA STUDY MATERIALS
+// ====================
+
+// sem-I
 export const FINANCIAL_ACCOUNTING =
   "https://drive.google.com/file/d/1VQHi_Lig-kOrk3UIUG7AFxxRUGqBT3B0/";
 export const BUSINESS_AND_TECHNOLOGY =
@@ -64,7 +94,8 @@ export const BUSINESS_ECONOMICS =
   "https://drive.google.com/file/d/1HdU02TyPvd7_BksuxrtOreesOarZKnwf/";
 export const BUSINESS_MATHEMATICS =
   "https://drive.google.com/file/d/1efl2qQAmXxT9Ld0SvxG4Ru5dudZfDyWd/";
-//sem-II
+
+// sem-II
 export const PRINCIPLES_AND_PRACTICES_OF_MANAGEMENT =
   "https://drive.google.com/file/d/1GqTnwU4evqay9XBH_zI4V73BFxmotVkS/";
 export const MACRO_ECONOMICS =
@@ -73,7 +104,8 @@ export const CORPORATE_BUSINESS_LAW =
   "https://drive.google.com/file/d/16kIYtfit-4Lg9CnF6iGEzMiZA5ucyTJi/";
 export const BUSINESS_STATISTICS_WITH_ADVANCED_EXCEL =
   "https://drive.google.com/file/d/1uXvy2_BW6Wh3hOZ-SPise_yFmeN_N6F9/";
-//sem-III
+
+// sem-III
 export const CORPORATE_ACCOUNTING =
   "https://drive.google.com/file/d/14Gy_XbiuCd-j7_TCLza_SliZUiMW51Qe/";
 export const HUMAN_RESOURCE_MANAGEMENT_BBA =
@@ -82,14 +114,16 @@ export const MARKETING_MANAGEMENT_BBA =
   "https://drive.google.com/file/d/1Ohn0V-mTcBQXVFLCTHI_dZmdP_mJvWG7/";
 export const OPERATIONS_MANAGEMENT_BBA =
   "https://drive.google.com/file/d/12ZvPdnIMXuMBWyTijbnuB4L7YHdCVlbb/";
-//sem-IV
+
+// sem-IV
 export const FINANCIAL_MANAGEMENT_BBA =
   "https://drive.google.com/file/d/1dRIBf2xgQH4TgL9-FMxKrU6XYedmu7e_/";
 export const BUSINESS_RESEARCH_METHODS_BBA =
   "https://drive.google.com/file/d/10rBG33kOOrSq2fJx_XsHVmEy42gztFr7/";
 export const ORGANISATIONAL_BEHAVIOR =
   "https://drive.google.com/file/d/16J6oYzKUM96ckjyCbGzyG83X1fyMOtNE/";
-//sem-V
+
+// sem-V
 export const COST_MANAGEMENT_ACCOUNTING =
   "https://drive.google.com/file/d/1_IJXsdbGPCFzb1ZYq7R-fQi4axLaHEHV/";
 export const OPERATIONS_RESEARCH =
@@ -98,35 +132,14 @@ export const DIRECT_TAXATION =
   "https://drive.google.com/file/d/1accCSrTJFNpDbMX63OBuisptW9KGwwmS/";
 export const STRATEGIC_MANAGEMENT =
   "https://drive.google.com/file/d/1hfzFaQ25cvFdXPc16Uw1IqtOb0hIAI2H/";
-//sem-VI
+
+// sem-VI
 export const ENTREPRENEURSHIP_DEVELOPMENT =
   "https://drive.google.com/file/d/1vBeP9P2fEx4TBdXXvR_MId0f_0LpcBzP/";
 
-//video
-export const DYNAMICS_OF_HUMAN_BEHAVIOR_MBA_1 =
-  "https://youtu.be/QghwBBFWopI?si=q4CsDIFoACnGHbEZ";
-export const DYNAMICS_OF_HUMAN_BEHAVIOR_MBA_2 =
-  "https://youtu.be/FX7y8OerjlQ?si=aSCehZpruL7SPK21";
-export const HUMAN_RESOURCE_MANAGEMENT =
-  "https://youtu.be/FX7y8OerjlQ?si=-QddH5ZEvMKmlPYI";
-export const MARKETING_MANAGEMENT_1 =
-  "https://youtu.be/9PaSCcKct48?si=fFWEEa5-PmwHK9ex";
-export const MARKETING_MANAGEMENT_2 =
-  "https://youtu.be/4ZF1_l1V95E?si=70nylQxDRxhwyX-s";
-export const DIGITAL_INNOVATION_AND_TRANSFORMATION =
-  "https://youtu.be/cD8HIzClO8I?si=PFjDeusx251ZeTQx";
-export const DIGITAL_MARKETING =
-  "https://youtu.be/cD8HIzClO8I?si=PFjDeusx251ZeTQx";
-export const EMPLOYEE_RELATIONSHIP_MANAGEMENT =
-  "https://youtu.be/h0lHU6MQbEQ?si=5tSizN1fcFvDRFXa";
-export const COMPETENCY_MAPPING =
-  "https://youtu.be/QghwBBFWopI?si=YP4F-nAZZMS6zJCV";
-export const STRATEGIC_ANALYSIS_AND_MANAGEMENT_MBA =
-  "https://youtu.be/EEXwggKhM54?si=nWj7bE4bBzfqOYV0";
-export const LEGAL_ENVIRONMENT_OF_BUSINESS_MBA =
-  "https://youtu.be/ruU3yLRkvOE?si=2426T1VHerIYDRQP";
-
-// 🎓 BACHELOR IN ARTS (BA)
+// ====================
+// 🎓 BACHELOR OF ARTS (BA)
+// ====================
 
 // I SEMESTER
 export const ANCIENT_INDIAN_HISTORY =
@@ -222,16 +235,25 @@ export const SOCIOLOGY_OF_INDIA =
 export const TRAVEL_AGENCY_AND_TOUR_OPERATIONS =
   "https://drive.google.com/file/d/1v7F5hgse1_6uMgb1WX8qk2Wemg97Pt9M/";
 
+// ====================
+// 🧩 MAP FOR DYNAMIC ACCESS
+// ====================
+
 export const pdfLinksMap = {
   // MBA
   MBA_MANAGERIAL_ECONOMICS: MANAGERIAL_ECONOMICS_LINK,
-  MBA_ACCOUNTING_FOR_MANAGERS: ACCOUNTING_OR_MANAGERS,
-  MBA_DYNAMICS_OF_HUMAN_BEHAVIOR: DYNAMICS_OF_HUMAN_BEHAVI,
+  MBA_ACCOUNTING_FOR_MANAGERS: ACCOUNTING_FOR_MANAGERS,
+  MBA_DYNAMICS_OF_HUMAN_BEHAVIOR: DYNAMICS_OF_HUMAN_BEHAVIOR,
+  MBA_DYNAMICS_OF_HUMAN_BEHAVIOR_VIDEO_1: DYNAMICS_OF_HUMAN_BEHAVIOR_VIDEO_1,
+  MBA_DYNAMICS_OF_HUMAN_BEHAVIOR_VIDEO_2: DYNAMICS_OF_HUMAN_BEHAVIOR_VIDEO_2,
   MBA_INFORMATION_SYSTEM_AND_BUSINESS_ANALYTICS:
-    INFORMATION_SYSTEM_AND_BUSINESS_ANALYTI,
-  MBA_MARKETING_MANAGEMENT: MARKETING_MANAGEMENT_M,
-  MBA_BUSINESS_STATISTICS_WITH_R: BUSINESS_STATISTICS_WITH,
-  MBA_HUMAN_RESOURCE_MANAGEMENT: HUMAN_RESOURCE_MANAGEMENT_M,
+    INFORMATION_SYSTEM_AND_BUSINESS_ANALYTICS,
+  MBA_MARKETING_MANAGEMENT: MARKETING_MANAGEMENT,
+  MBA_MARKETING_MANAGEMENT_VIDEO_1: MARKETING_MANAGEMENT_VIDEO_1,
+  MBA_MARKETING_MANAGEMENT_VIDEO_2: MARKETING_MANAGEMENT_VIDEO_2,
+  MBA_BUSINESS_STATISTICS_WITH_R: BUSINESS_STATISTICS_WITH_R,
+  MBA_HUMAN_RESOURCE_MANAGEMENT: HUMAN_RESOURCE_MANAGEMENT,
+  MBA_HUMAN_RESOURCE_MANAGEMENT_VIDEO: HUMAN_RESOURCE_MANAGEMENT_VIDEO,
   MBA_INTERNATIONAL_BUSINESS_MANAGEMENT: INTERNATIONAL_BUSINESS_MANAGEMENT,
   MBA_BUSINESS_RESEARCH_METHODS: BUSINESS_RESEARCH_METHODS,
   MBA_FINANCIAL_MANAGEMENT: FINANCIAL_MANAGEMENT_MBA,
@@ -242,6 +264,15 @@ export const pdfLinksMap = {
   MBA_LEADERSHIP_AND_CAPACITY_BUILDING: LEADERSHIP_AND_CAPACITY_BUILDING,
   MBA_TOTAL_QUALITY_MANAGEMENT: TOTAL_QUALITY_MANAGEMENT,
   MBA_TECHNOLOGY_MANAGEMENT: TECHNOLOGY_MANAGEMENT,
+  MBA_DIGITAL_INNOVATION_AND_TRANSFORMATION_VIDEO:
+    DIGITAL_INNOVATION_AND_TRANSFORMATION_VIDEO,
+  MBA_DIGITAL_MARKETING_VIDEO: DIGITAL_MARKETING_VIDEO,
+  MBA_EMPLOYEE_RELATIONSHIP_MANAGEMENT_VIDEO:
+    EMPLOYEE_RELATIONSHIP_MANAGEMENT_VIDEO,
+  MBA_COMPETENCY_MAPPING_VIDEO: COMPETENCY_MAPPING_VIDEO,
+  MBA_STRATEGIC_ANALYSIS_AND_MANAGEMENT_VIDEO:
+    STRATEGIC_ANALYSIS_AND_MANAGEMENT_VIDEO,
+  MBA_LEGAL_ENVIRONMENT_OF_BUSINESS_VIDEO: LEGAL_ENVIRONMENT_OF_BUSINESS_VIDEO,
 
   // BBA
   BBA_FINANCIAL_ACCOUNTING: FINANCIAL_ACCOUNTING,
