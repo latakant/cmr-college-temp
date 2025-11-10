@@ -22,7 +22,7 @@ export const DYNAMICS_OF_HUMAN_BEHAVI =
 export const INFORMATION_SYSTEM_AND_BUSINESS_ANALYTI =
   "https://drive.google.com/file/d/1vWK7LKG268aYoOAbdh2BLfjhfkjVce7F/";
 export const MARKETING_MANAGEMENT_M =
-  "https://drive.google.com/file/d/1vWK7LKG268aYoOAbdh2BLfjhfkjVce7F/";
+  "https://drive.google.com/file/d/1l0RhxoFLfRV6vUsXYVqn9i9-OEupNNCF/";
 export const BUSINESS_STATISTICS_WITH =
   "https://drive.google.com/file/d/1Kwounr9KPykIO-kUU-ZgDvLzAVynyvUp/";
 export const HUMAN_RESOURCE_MANAGEMENT_M =
