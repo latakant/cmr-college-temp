@@ -173,7 +173,7 @@ export const mbaData = [
             id: "VIDE10",
             name: "Strategic Analysis and Management",
             route:
-              "/courses/mba/semester-II/Strategic-Analysis-and-Management-video",
+              "/courses/mba/semester-III/Strategic-Analysis-and-Management-video",
             Study_Material: "View video",
             pdfKey: "MBA_STRATEGIC_ANALYSIS_AND_MANAGEMENT_VIDEO",
           },
@@ -201,7 +201,7 @@ export const mbaData = [
             id: "VIDE11",
             name: "Legal Environment of Business",
             route:
-              "/courses/mba/semester-II/Legal-Environment-of-Business-video",
+              "/courses/mba/semester-IV/Legal-Environment-of-Business-video",
             Study_Material: "View video",
             pdfKey: "MBA_LEGAL_ENVIRONMENT_OF_BUSINESS_VIDEO",
           },
