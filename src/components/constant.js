@@ -235,6 +235,12 @@ export const SOCIOLOGY_OF_INDIA =
 export const TRAVEL_AGENCY_AND_TOUR_OPERATIONS =
   "https://drive.google.com/file/d/1v7F5hgse1_6uMgb1WX8qk2Wemg97Pt9M/";
 
+//SidewBar
+export const HEI_APPLICATION =
+  "https://drive.google.com/file/d/1YrSSJAd589Cum_jXy25wcO3zT_nb8DyR/";
+export const IQAC_REPORTS =
+  "https://drive.google.com/drive/folders/1KO4lWJE9kux_vBhTIyMCKMt4TN73auck/";
+
 // ====================
 // 🧩 MAP FOR DYNAMIC ACCESS
 // ====================

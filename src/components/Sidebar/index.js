@@ -87,7 +87,7 @@ function Sidebar() {
             <NavLink to="/assignments">Assignments & Papers</NavLink>
           </li>
           <li>
-            <NavLink to="/ciqa">CIQA Reports</NavLink>
+            <NavLink to="/iqac">IQAC Reports</NavLink>
           </li>
           <li>
             <NavLink to="/Telephone Directory- Contact Details">

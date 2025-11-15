@@ -18,7 +18,9 @@ import {
   CONTACT_LINK,
   CDOE_PDF,
   pdfLinksMap,
-  DYNAMICS_OF_HUMAN_BEHAVIOR_VIDEO_1, // ✅ corrected import
+  DYNAMICS_OF_HUMAN_BEHAVIOR_VIDEO_1,
+  HEI_APPLICATION,
+  IQAC_REPORTS, // ✅ corrected import
 } from "./components/constant";
 
 function App() {
@@ -78,6 +80,24 @@ function App() {
             <Route
               path="/brochures"
               element={<TemporaryDashboard contentUrl={CDOE_PDF} />}
+            />
+            <Route
+              path="/hei"
+              element={
+                <TemporaryDashboard
+                  isDriveLink={true}
+                  contentUrl={HEI_APPLICATION}
+                />
+              }
+            />
+            <Route
+              path="/iqac"
+              element={
+                <TemporaryDashboard
+                  isDriveLink={true}
+                  contentUrl={IQAC_REPORTS}
+                />
+              }
             />
 
             {/* Dynamic Subject Routes */}
