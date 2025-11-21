@@ -1,0 +1,49 @@
+[33m4e03b5a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m chore: add react-scripts dependency
+[33m6da0d74[m refactor: Migrate build system from Create React App to Vite.
+[33mb92a16d[m fix: Update CONTACT_LINK to remove unnecessary query parameters
+[33md598fdd[m refactor: Clean up unused imports and optimize code structure in App, Sidebar, and constant components
+[33m0483561[m fix: Update video routes for Strategic Analysis and Management and Legal Environment of Business to correct semesters
+[33m6aacf91[m feat: Refactor course routes and enhance PDF/video link management; update sidebar styles and implement TemporaryDashboard component
+[33mdae4ba6[m refactor: Update header and navbar links for consistency; modify placeholder text in Page component
+[33m866fece[m feat: Add links for Entrepreneurship Development and other BBA subjects in constant.js
+[33mf4d4696[m fix: Update DYNAMICS_OF_HUMAN_BEHAVI link to correct resource
+[33m468c67c[m fix: Correct MARKETING_MANAGEMENT_M link to point to the correct resource
+[33m6fc05c4[m feat: Update course routes and enhance PDF link management for BBA and MBA programs
+[33m903430b[m feat: Add Entrepreneurship Development subject for V semester in BBA program
+[33m27f8ad0[m fix: Comment out MBA_BBA_COURSE_LINKS import in App.js
+[33me65edd7[m fix: Update Vercel deployment workflow and enhance constant.js with token comment
+[33mbed355e[m fix: Update Vercel deployment workflow to use latest action versions and improve logging
+[33m5cec55d[m Add course data for BA, BBA, and MBA programs; enhance course table styling and functionality
+[33m2977c59[m fix: Add video links for MBA course materials in constant.js
+[33mdd79d96[m fix: Standardize constant names for MBA courses and add BBA study materials links
+[33mb1805fa[m fix: Add study materials links for MBA and BBA courses in constant.js
+[33m9c9546f[m fix: Enhance Vercel deployment workflow by linking project before pulling environment info
+[33m23ca6f1[m fix: Update BA_COURSE_LINKS URL to remove edit parameter for correct access
+[33m515e759[m fix: Restore BA_COURSE_LINKS constant and update routing in App.js for course navigation
+[33mb689869[m fix
+[33m086ab60[m fix: Update build command in Vercel deployment workflow to disable CI for successful builds
+[33m1eb3957[m fix: Comment out unused BA_COURSE_LINKS constant for cleaner code
+[33m0055e05[m fix: Update import path for constants in App.js to correct module reference
+[33mdb2a8a0[m fix: Reorder import statements in App.js for better organization
+[33me04b1b3[m fix: Remove commented-out GitHub Actions token from constant.js for cleaner code
+[33m1460b6f[m feat: Add Vercel deployment workflow and update .gitignore for Vercel directory
+[33m4c38c0e[m fix: Format constants in constant.js for consistency and add newlines
+[33m7f98c21[m feat: Update course links in App and enhance Home component content for clarity
+[33ma946dc5[m feat: Update Home component with CDOE information and adjust routing for improved navigation
+[33me9a2f33[m fix: Update homepage field in package.json to use relative path
+[33m90a8b12[m fix: Correct constant name for anti-ragging PDF link in constant.js
+[33m935848e[m feat: Add CDOE_PDF constant and update routing in App for brochure display
+[33m61c3e46[m fix: Add titles to iframes in TemporaryDashboard for improved accessibility
+[33mda035f5[m fix: Comment out link for notice titles in StudentNotices component
+[33m26c6134[m fix: Update routing and constants for improved navigation and functionality
+[33ma760c06[m changes
+[33m3162917[m Refactor code structure for improved readability and maintainability
+[33m731841e[m fix: Update route path for Home component to match new base path
+[33m2090e12[m fix: Correct base path in Vite configuration from "/college-templet" to "/cmr-college-temp"
+[33m69c458e[m Refactor code structure for improved readability and maintainability
+[33m23e7b60[m feat: Add initial build files including 404 page, favicon, logos, manifest, and robots.txt
+[33m66c2b50[m feat: Add main components for the CDOE website including Header, Footer, Navbar, Sidebar, and Home page
+[33m6f238eb[m Refactor code structure for improved readability and maintainability
+[33mafd62bd[m feat: Add initial build files including 404 page, favicon, logos, manifest, and robots.txt
+[33md6adc54[m feat: Add initial components and styles for the college template
+[33m8344791[m Initial commit
