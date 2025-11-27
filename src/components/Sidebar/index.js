@@ -42,9 +42,9 @@ function Sidebar() {
           <li>
             <NavLink to="/anti-ragging">Anti-Ragging</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/faculty-staff">Faculty & Staff</NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink to="/Student-notices">Student Notices</NavLink>
           </li>
