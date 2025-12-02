@@ -57,14 +57,14 @@ function Sidebar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/magazine">USOL Magazine</NavLink>
+            <NavLink to="/magazine">CMRU Magazine</NavLink>
           </li>
           <li>
             <NavLink to="/ncte">NCTE</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/research-projects">Research Projects</NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink to="/contact">Contact Us</NavLink>
           </li>
