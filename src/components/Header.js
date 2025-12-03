@@ -22,10 +22,10 @@ function Header() {
             Home
           </a>
           <a href="/mail" className="header-link">
-            CMRU@Mail
+            Log In
           </a>
           <a href="/contact" className="header-link">
-            Contact CMRU
+            Sign Up
           </a>
         </div>
       </div>
