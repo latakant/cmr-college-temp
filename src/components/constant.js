@@ -5,7 +5,7 @@ export const VERCEL_TOKEN = "V2SyEjkTInNisyrPxmry1kA8";
 export const PDF_FOR_ANTI_RAGGING =
   "https://www.cmr.edu.in/wp-content/uploads/2025/10/Anti-Ragging-2025.pdf";
 export const CONTACT_LINK =
-  "https://drive.google.com/file/d/1GWSn-MFbjxWlDfDm3VWLd8PmCx8lbOIm";
+  "https://drive.google.com/file/d/1GWSn-MFbjxWlDfDm3VWLd8PmCx8lbOIm/";
 export const CDOE_PDF =
   "https://www.cmr.edu.in/wp-content/uploads/2025/07/CMRU_SOM_6-Page-Flyer_Digital.pdf";
 export const BA_COURSE_LINKS =
